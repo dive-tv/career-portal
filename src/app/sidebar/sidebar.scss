@@ -195,7 +195,7 @@ aside {
                     &:checked {
                         background: $primary;
                         & + label {
-                            color: $primary;
+                            color: $tertiary;
                         }
                     }
                 }
