@@ -1,5 +1,4 @@
 header.app {
-    color: white;
     height: $header-height;
     min-height: $header-height;
     padding: 0 1.5em;
@@ -9,6 +8,9 @@ header.app {
     z-index: $header-z-index;
     @include desktop() {
         text-align: left;
+    }
+    button {
+        color: white !important;
     }
     #logo {
         width: 101px;
